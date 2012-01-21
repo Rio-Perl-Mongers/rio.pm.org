@@ -21,6 +21,7 @@ sub startup {
         Sobre
         FAQ
         QuemUsa
+        Mitos
     };
     Site::Loader::load( $self, @core_modules );
 }
