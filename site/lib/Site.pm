@@ -20,6 +20,7 @@ sub startup {
         Iniciantes
         Sobre
         FAQ
+        QuemUsa
     };
     Site::Loader::load( $self, @core_modules );
 }
