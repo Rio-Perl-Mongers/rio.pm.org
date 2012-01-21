@@ -15,7 +15,11 @@ sub startup {
     $self->plugin('PODRenderer');
 
     # Loading Modules
-    my @core_modules = qw{ Home Iniciantes };
+    my @core_modules = qw{
+        Home
+        Iniciantes
+        Sobre
+    };
     Site::Loader::load( $self, @core_modules );
 }
 
