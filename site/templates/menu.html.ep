@@ -1,5 +1,6 @@
 <div id="menu">
     <ul class="avmenu">
+        <li><a href="<%= url_for('/') %>">Home</a></li>
         <li><a href="faq.pl">FAQ</a></li>
         <li><a href="quem_usa.pl">Quem usa Perl?</a></li>
         <li><a href="mitos.pl">Mitos/FUD</a></li>
