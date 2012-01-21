@@ -19,6 +19,7 @@ sub startup {
         Home
         Iniciantes
         Sobre
+        FAQ
     };
     Site::Loader::load( $self, @core_modules );
 }
