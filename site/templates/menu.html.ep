@@ -12,6 +12,6 @@
         <li><a href="enc_tecnicos.pl">Encontros Técnicos</a></li>
         <li><a href="livros.pl">Livros &amp; Resenhas</a></li>
         <li><a href="cpan.pl">Módulos e CPAN</a></li>
-        <li><a href="sobre.pl">Sobre a Rio-PM</a></li>
+        <li><a href="<%= url_for('/sobre') %>">Sobre a Rio-PM</a></li>
     </ul>
 </div>
