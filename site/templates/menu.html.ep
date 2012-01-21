@@ -4,7 +4,7 @@
         <li><a href="faq.pl">FAQ</a></li>
         <li><a href="quem_usa.pl">Quem usa Perl?</a></li>
         <li><a href="mitos.pl">Mitos/FUD</a></li>
-        <li><a href="iniciantes.pl">Iniciantes</a></li>
+        <li><a href="<%= url_for('/iniciantes') %>">Iniciantes</a></li>
         <li><a href="diversao.pl">Diversão</a></li>
         <li><a href="desenv.pl">Desenvolvimento</a></li>
         <li><a href="lista.pl">Lista de discussão</a></li>
