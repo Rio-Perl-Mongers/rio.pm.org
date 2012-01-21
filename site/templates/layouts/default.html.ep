@@ -1,5 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head><title><%= title %></title></head>
-  <body><%= content %></body>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+        
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body>
+        <div id="header">
+            <h1>Rio de Janeiro<br> Perl Mongers</h1>
+            <h2>CPAN é a linguagem. Perl é apenas a sintaxe.</h2>
+            <img width="760" height="175" alt="" src="/images/bg1.png" id="frontphoto">
+        </div>
+        
+        <div id="left_bar">
+            <%= include 'menu' %>
+            <%= include 'logos' %>
+        </div>
+        
+        <div id="content">
+            <%= content %>
+            <%= include 'sponsors' %>
+        </div>
+        
+        <div id="right_bar">
+            <%= include 'enquete' %>
+            <%= include 'links' %>
+            <%= include 'regionais' %>
+        </div>
+        
+        <div id="footer">
+            Footer
+        </div>
+    </body>
 </html>
