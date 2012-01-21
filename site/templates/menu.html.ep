@@ -3,7 +3,7 @@
         <li><a href="<%= url_for('/') %>">Home</a></li>
         <li><a href="<%= url_for('/FAQ') %>">FAQ</a></li>
         <li><a href="<%= url_for('/quem_usa') %>">Quem usa Perl?</a></li>
-        <li><a href="mitos.pl">Mitos/FUD</a></li>
+        <li><a href="<%= url_for('/mitos') %>">Mitos & FUD</a></li>
         <li><a href="<%= url_for('/iniciantes') %>">Iniciantes</a></li>
         <li><a href="diversao.pl">Diversão</a></li>
         <li><a href="desenv.pl">Desenvolvimento</a></li>
