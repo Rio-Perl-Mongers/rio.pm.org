@@ -1,18 +1,22 @@
 package Site;
 use Mojo::Base 'Mojolicious';
 
+
+use Site::Loader;
+
 # This method will run once at server start
 sub startup {
-  my $self = shift;
+    my $self = shift;
 
-  # Documentation browser under "/perldoc"
-  $self->plugin('PODRenderer');
+    # Routes Namespace
+    $self->routes->namespace('Site::Controller');
 
-  # Routes
-  my $r = $self->routes;
+    # Documentation browser under "/perldoc" (this plugin requires Perl 5.10)
+    $self->plugin('PODRenderer');
 
-  # Normal route to controller
-  $r->route('/')->to('example#welcome');
+    # Loading Modules
+    my @core_modules = qw{ Home Iniciantes };
+    Site::Loader::load( $self, @core_modules );
 }
 
-1;
+return 42;
