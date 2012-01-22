@@ -1,0 +1,27 @@
+Site da Rio Perl Mongers
+========================
+
+Olá! Neste repositório você vai encontrar o código do site dos
+Perl Mongers do Rio de Janeiro. Se tudo correu bem, pode ver
+o site em [http://rio.pm.org]
+
+Toda ajuda é bem-vinda, então sinta-se livre para criar novos
+tiquetes ("issues") ou enviar patches.
+
+Colaborando
+-----------
+
+1. faça um fork do repositório
+2. hack, hack, hack
+3. envie-nos um pull request
+4. PROFIT!!!11
+
+*importante* - leia os tiquetes abertos e, se for trabalhar em
+algo, avise lá. Assim evitamos que duas pessoas estejam trabalhando
+no mesmo item ao mesmo tempo.
+
+Caso tenha dúvidas sobre algum item específico, queira detalhes de
+como proceder, ou se quiser simplesmente bater um papo, procure-nos
+no #rio-pm em irc.perl.org.
+
+Boa diversão!
