@@ -102,6 +102,8 @@ p {
 #footer {
     width: 760px;
     clear: both;
+    border-top: solid #ccc 1px;
+    padding-top: 5px;
 }
 
 #footer > p {
