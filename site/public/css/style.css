@@ -21,13 +21,18 @@ header {
 
 header > h1 {
     float: left;
+    font-size: 2.2em;
+    margin: 0 0 10px;
+    color: #505050;
+    width: 250px;
 }
 
 header > h2 {
     float: right;
     padding: 20px;
-    width: 500px;
+    width: auto;
     text-align: center;
+    font-size: 1.1em;
 }
 
 #left_bar {
@@ -48,16 +53,25 @@ ul.menu > li {
     display: block;
     background-color: #ffe0a3;
     border-left: 4px solid #ff9600;
+    line-height: 1.4em;
 }
 
 ul.menu > li > a {
     color: #555;
     font-weight: bold;
     text-decoration: none;
+    margin-bottom: 5px;
+
 }
 
 ul.menu > li:hover {
     background-color: #ffd177;
+    border-left: 4px solid #ff0000;
+}
+
+#frontphoto {
+    margin:0 0 10px;
+    border:0;
 }
 
 #content {
@@ -111,3 +125,20 @@ p {
     text-align: center;
 }
 
+
+a {
+    text-decoration:none;
+    font-weight:bold;
+    color:#835412; /* #286ea0; */
+    background-color:inherit;
+}
+
+a:hover {
+    text-decoration:underline;
+    color:#835412; /* #286ea0; */
+    background-color:inherit;
+}
+
+a img {
+    border:0;
+}
