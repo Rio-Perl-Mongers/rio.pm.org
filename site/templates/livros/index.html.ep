@@ -1,0 +1,220 @@
+% layout 'default';
+
+
+<h3>Livros &amp; Resenhas</h3>
+<hr size="1">
+<table align="right">
+    <tbody>
+        <tr>
+            <td><script
+                    src="http://s6.smrtlnks.com/users/GenerateBlueLinks.php?feedUrl=http%3A%2F%2Fwww.oreillynet.com%2Fpub%2Ffeed%2F29%3Ftopic%3D37&amp;title=Novos%20Livros%20de%20Perl&amp;skin=lightGrey&amp;width=230&amp;numItems=2&amp;type=grid&amp;display=thumbs&amp;topLogo=oreilly.jpg&amp;logoLink=http://www.oreilly.com&amp;feedTitleLink=viewall&amp;columns=2&amp;xsl=oreilly.xsl&amp;blueSiteId=oreilly"
+                    type="text/javascript"></script></td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Veja abaixo alguns dos principais livros de referência para a linguagem
+    Perl, com atenção para as mini-resenhas, para saber qual o melhor livro
+    para você de acordo com seu atual estágio de desenvolvimento. Em alguns
+    dos links é possível ver trechos dos livros e até mesmo comprá-los online.</p>
+<p>
+    Fique atento também ao widget ao lado, que lista os últimos livros de Perl
+    publicados pela <a href="http://www.oreilly.com/" target="_blank">
+        O'Reilly</a>!
+</p>
+<br>
+<center>
+    <p>
+        <b>Quer submeter uma resenha nova? Entre em contato pela lista!</b>
+    </p>
+</center>
+
+<p></p>
+<h3>Livros de Cabeceira:</h3>
+<p></p>
+<p></p>
+<table>
+    <tbody>
+        <tr>
+            <td><a
+                href="http://books.google.com/books?id=IzdJIax6J5oC&amp;pg=PA1&amp;hl=pt-BR&amp;sig=SVMb-aOFasu1KepmJIOgv1QOHt8#PPP1,M1"
+                target="_blank"><img
+                    src="http://books.google.com/books?id=IzdJIax6J5oC&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;sig=nmsiFbPtANMe350TNs7gZGgsGR8"><br>Perl
+                    Cookbook</a>
+            </td>
+            <td><i>Encontre um programador Perl, e você encontrará
+                    uma cópia do "Cookbook" por perto. Este fantástico livro
+                    traz uma lista detalhada de problemas, soluções e exemplos
+                    práticos para programadores. Excelente guia de referência,
+                    mas não deve ser utilizado por quem ainda não conhece
+                    Perl.</i>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a
+                href="http://books.google.com/books?id=gJf9tI2mytIC&amp;pg=PP1&amp;hl=pt-BR&amp;sig=K5gD5UhOaqkJ5-XMWYxD8RT746g#PPP1,M1"
+                target="_blank"><img
+                    src="http://books.google.com/books?id=gJf9tI2mytIC&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;sig=FjJkTgg_SMGioUWJLpTWSfFQQX4"><br>Perl
+                    Best Practices</a>
+            </td>
+            <td><i>Muitos programam por instinto, com hábitos
+                    convenientes ou estilos adquiridos durante o aprendizado
+                    da linguagem. Em uma linguagem onde há muitas maneiras de
+                    se fazer cada coisa, é importante contar com um guia que
+                    mostra e demonstra porquê algumas maneiras são melhores do
+                    que outras, e garantem códigos legíveis e de fácil
+                    manutenção em projetos grandes e em equipe.</i>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+
+<p></p>
+<p></p>
+<h3>Outros Livros</h3>
+<p></p>
+<p></p>
+<table>
+    <tbody>
+        <tr>
+            <td><a href="http://www.perl.org/books/beginning-perl/"
+                target="_blank"> <img
+                    src="http://ecx.images-amazon.com/images/I/51r2sygaYxL._SS75_.jpg"
+                    height="80" width="71"><br>Beginning Perl</a></td>
+            <td><i>Embora voltado para o programador iniciante, este
+                    livro não te trata como um idiota, e programadores
+                    experientes (em outras linguagens) não terão problemas em
+                    ir direto para o que os interessa. O livro cobre muito
+                    material, dos princípios de programação até orientação a
+                    objetos e desenvolvimento para Web, enfatizando sempre as
+                    melhores práticas e código legível e de fácil manutenção.
+                    A primeira edição está totalmente disponível online e,
+                    embora cubra apenas o Perl 5.6, ainda é uma excelente
+                    referência para aprender a linguagem. </i><br></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><a
+                href="http://books.google.com/books?id=CD4CAAAACAAJ&amp;hl=pt-BR"
+                target="_blank"> <img
+                    src="http://books.google.com/books?id=CD4CAAAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;sig=T-NU3SIx3E6QIDs277_et3XHSNI"
+                    height="80" width="61"><br>Perl: How to Program</a>
+            </td>
+            <td><i>Guia completo para programação com Perl, este
+                    livro enfatiza o uso da Common Gateway Interface (CGI) com
+                    Perl para criar poderosos conteúdos dinâmicos na Web para
+                    aplicações de comércio eletrônico. Sua estrutura altamente
+                    didática inclui centenas de linhas de código e capturas de
+                    telas, dicas de cuidados e boas práticas para seu código
+                    além de diversos apontadores para referências externas na
+                    Web. </i><br></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a
+                href="http://books.google.com/books?id=ezqe1hh91q4C&amp;pg=PA3&amp;hl=pt-BR&amp;sig=KKS8gFUnOK5YDecjXaVs0EEPOnk#PPP1,M1"
+                target="_blank"> <img
+                    src="http://books.google.com/books?id=ezqe1hh91q4C&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;sig=PtspKZMKgtnB8y_y9foEeyzwoYE"><br>Programming
+                    Perl</a>
+            </td>
+            <td><i>Conhecido como o "Livro do Camelo" (sim,
+                    dromedários são camelos =) e escrito por grandes expoentes
+                    da linguagem – inclusive o autor do Perl, Larry Wall –
+                    este livro rapidamente tornou-se e até hoje é reconhecido
+                    como a bíblia da linguagem. Mas não é apenas um livro para
+                    aprender Perl: sua abordagem única em relação à linguagem
+                    e à cultura de sua comunidade fazem deste livro leitura
+                    obrigatória e, ainda que cubra apenas a versão 5.6 da
+                    linguagem, permanece atual na maioria de seus aspectos e
+                    ajuda o programador a entender como as coisas funcionam
+                    por fora e por dentro.</i><br></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a
+                href="http://books.google.com/books?id=fI1rpcK7jpgC&amp;pg=PA2&amp;hl=pt-BR&amp;sig=k_Ef8GMrRjELP-PI7Sg5HVDQI3g#PPP1,M1"
+                target="_blank"><img
+                    src="http://books.google.com/books?id=fI1rpcK7jpgC&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;sig=gDBNvvKMTro9Dk0nNH7Y1WMF1rA"><br>Perl
+                    Medic: Transforming Legacy Code</a></td>
+            <td><i>Mais uma excelente fonte para programadores, "Perl
+                    Medic" apresenta dicas e estratégias de como manter,
+                    otimizar, refatorar e escalar programas em Perl... quer
+                    você os tenha escrito ou não! Conheça boas práticas para
+                    ambientes enterprise e veja diversos exemplos e estudos de
+                    casos em um formato divertido de ler e fácil de aplicar em
+                    seu código do dia a dia. Um livro ideal para aqueles que
+                    programam por profissão e/ou em ambientes colaborativos,
+                    para ser usado complementarmente ao PBP. </i>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a
+                href="http://books.google.com/books?id=JdYkZg-0vPwC&amp;pg=PA1&amp;hl=pt-BR&amp;sig=-8wyBiRNK9QSzlhwiLUyPCZjxvc#PPP1,M1"
+                target="_blank"> <img
+                    src="http://books.google.com/books?id=JdYkZg-0vPwC&amp;pg=PP1&amp;img=1&amp;zoom=5&amp;sig=lYNZKCe4PkatJ3GbNXg3_lzB8T0"><br>Perl
+                    for Oracle DBAs</a>
+            </td>
+            <td><i>Este livro traz uma introdução ao Perl e muitos
+                    utilitários prontos. Serve tanto para programadores Perl
+                    que implementam algum controle sobre o Banco de Dados,
+                    quanto para DBAs que precisam aprender um pouco mais da
+                    linguagem. Se você tiver oportunidade, verá que é um livro
+                    que traz ferramentas, em sua maioria desconhecidas que
+                    atendem desejos para vários outros bancos de dados!<br>
+            </i> - mda 2007/09/23</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a
+                href="http://books.google.com/books?id=vYFKqq3x6M0C&amp;pg=PA1&amp;hl=pt-BR&amp;sig=yyXhUKDkvDa-6EnTQ6FgB4bkvnE#PPP1,M1"
+                target="_blank"><img
+                    src="http://books.google.com/books?id=vYFKqq3x6M0C&amp;pg=PP1&amp;img=1&amp;zoom=5&amp;sig=-Bo_j7kC6EtIfz0fTpRvxYmvZco"><br>Programming
+                    Web Services with Perl</a>
+            </td>
+            <td><i>Escrito pelo próprio autor do SOAP::Lite, traz
+                    informação para usuários novatos e intermediários de Web
+                    Services. Se você está começando, ou encontrando
+                    dificuldades em implementar algo, verifique o que este
+                    livro lhe traz. SOAP, WSDL, REST, XML Schema, Transport,
+                    dados complexos, Client/Server... o que você precisa
+                    saber, e o que ainda nem imagina que vai precisar. Em um
+                    só projeto eu teria economizado 3 meses de depuração e
+                    muita dor de cabeça se tivesse em mãos as valiosas
+                    informações contidas neste livro.<br> </i>- mda
+                2007/09/23</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a
+                href="http://apress.com/resource/freeebook/9781590590188"><img
+                    src="http://apress.com/resource/bookcover/9781590590188"><br>Writing
+                    Perl Modules for CPAN</a>
+            </td>
+            <td><i>Ensinando design e implementação de módulos a
+                    partir do zero, este livro oferece a desenvolvedores Perl
+                    um detalhado guia sobre como utilizar e contribuir para a
+                    Comprehensive Perl Archive Network(CPAN)</i></td>
+        </tr>
+    </tbody>
+</table>
