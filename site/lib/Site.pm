@@ -25,6 +25,7 @@ sub startup {
         Lista
         Desenvolvimento
         CPAN
+        Diversao
     };
     Site::Loader::load( $self, @core_modules );
 }
