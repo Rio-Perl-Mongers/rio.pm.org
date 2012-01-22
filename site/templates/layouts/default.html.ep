@@ -5,14 +5,28 @@
             <%= title %>
         </title>
         
-        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-        <div id="header">
-            <h1>Rio de Janeiro<br> Perl Mongers</h1>
-            <h2>CPAN é a linguagem. Perl é apenas a sintaxe.</h2>
-            <img width="760" height="175" alt="" src="/images/bg1.png" id="frontphoto">
-        </div>
+        <header>
+            <h1>
+                Rio de Janeiro <br />
+                Perl Mongers
+            </h1>
+            
+            <h2>
+                CPAN é a linguagem. Perl é apenas a sintaxe.
+            </h2>
+            
+            <a href="http://rio.perl.org.br/">
+                <img
+                    width="760" height="175"
+                    alt="Rio de Janeiro Perl Mongers"
+                    src="/images/bg1.png"
+                    id="frontphoto"
+                />
+            </a>
+        </header>
         
         <div id="left_bar">
             <%= include 'menu' %>
@@ -24,14 +38,14 @@
             <%= include 'sponsors' %>
         </div>
         
-        <div id="right_bar">
+        <!--div id="right_bar">
             <%= include 'enquete' %>
             <%= include 'links' %>
             <%= include 'regionais' %>
-        </div>
+        </div-->
         
         <div id="footer">
-            Footer
+            <%= include 'footer' %>
         </div>
     </body>
 </html>
