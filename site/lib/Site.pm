@@ -23,6 +23,7 @@ sub startup {
         QuemUsa
         Mitos
         Lista
+        Desenvolvimento
     };
     Site::Loader::load( $self, @core_modules );
 }
