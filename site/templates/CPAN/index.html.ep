@@ -1,0 +1,20 @@
+% layout 'default';
+
+
+<img src="/images/cpan/cpan.jpg" border="0" style="border:0px transparent">
+<hr size="1">
+
+<p>
+CPAN é um acrônimo para <i>Comprehensive Perl Archive Network</i> (Rede Abrangente de Repositório Perl), um repositório com milhares (veja a caixa CPAN ao lado para o número atualizado diariamente) de módulos prontos para serem utilizados em seus programas, com documentação e exemplos práticos. O CPAN é sem dúvida uma das grandes maravilhas do Perl e, aliado à agilidade de programação que a linguagem oferece, possibilita o desenvolvimento de aplicações robustas com esforço quase zero. A grande maioria do código no CPAN é licenciado pela GPL e/ou Licença Artística do Perl, podendo ser usado por aplicações livres e comerciais. 
+</p>
+<h4>Usando o CPAN</h4>
+<p>A melhor maneira de começar a explorar o repositório é através de sua interface Web. Acesse <a href="http://search.cpan.org/">http://search.cpan.org/</a> ou utilize a caixa CPAN aqui na esquerda do site da Rio PM e procure sobre um tema qualquer, sobre alguma tarefa que faça parte de seu futuro programa e que leve você a pensar: <i>"alguém já deve ter feito isso antes"</i>. Usando as palavras-chave certas, você pode se surpreender com o resultado – e economizar horas, dias, até mesmo semanas de trabalho!
+</p>
+<h4>Achei o módulo ideal, como instalar?</h4>
+<p>
+<i>(se você usa o ActivePerl para Windows, use o programa "PPM" (Perl Package Manager) que vêm com ele. Do contrário, continue lendo)</i><br><br>
+Se você tem o perl instalado, a melhor maneira é usar o programa <i>cpan</i>, que acessa o repositório CPAN, baixa e instala módulos e dependências automaticamente. Para isso, na linha de comando, <font color="#FF0000">como superusuário</font> (<i>root</i>, <i>administrador</i>, etc) digite:
+</p><pre>cpan</pre>que costuma ser um atalho para o comando completo:<pre>perl -MCPAN -e 'shell'</pre>Isso abrirá o prompt interativo do CPAN, que permitirá a rápida instalação de módulos em seu sistema. Ao chamar o "cpan" pela primeira vez, ele te fará uma série de perguntas: não se preocupe muito com elas, já que o programa tende a achar as respostas certas automaticamente pra você. A única hora que exigirá sua interação de verdade é quando perguntarem quais mirrors utilizar. O cpan possui mais de 200 mirrors cadastrados ao redor do mundo, então escolha um bem próximo de você.
+Uma vez concluído esse processo, e em todas as execuções posteriores, o cpan vai iniciar com um prompt parecido com o abaixo:<br><pre>cpan&gt;</pre>esperando que você digite um comando qualquer. Para sair a qualquer momento, digite o comando "quit". Agora, para instalar o módulo desejado, basta digitar:<br><pre>cpan&gt; install Nome::Do::Modulo</pre>
+Atenção para o nome do módulo: lembre-se que há diferença entre maiúsculas e minúsculas. O cpan vai localizar o módulo desejado nos repositórios, baixá-lo, compilá-lo (quando necessário), baixar e instalar todas as dependências recursivamente (se for o caso), testar se o módulo está se comportando corretamente em seu sistema e, tudo corrento bem, finalizar a instalação. Todos os passos e qualquer problema será exibido na tela para você. Pronto! Agora é só usar o módulo em seus programas ;-)
+<br><br>
