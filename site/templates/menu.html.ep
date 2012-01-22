@@ -6,7 +6,7 @@
         <li><a href="<%= url_for('/mitos') %>">Mitos & FUD</a></li>
         <li><a href="<%= url_for('/iniciantes') %>">Iniciantes</a></li>
         <li><a href="diversao.pl">Diversão</a></li>
-        <li><a href="desenv.pl">Desenvolvimento</a></li>
+        <li><a href="<%= url_for('/desenvolvimento') %>">Desenvolvimento</a></li>
         <li><a href="<%= url_for('/lista') %>">Lista de discussão</a></li>
         <li><a href="enc_sociais.pl">Encontros Sociais</a></li>
         <li><a href="enc_tecnicos.pl">Encontros Técnicos</a></li>
