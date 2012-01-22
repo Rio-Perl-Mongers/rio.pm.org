@@ -22,6 +22,7 @@ sub startup {
         FAQ
         QuemUsa
         Mitos
+        Lista
     };
     Site::Loader::load( $self, @core_modules );
 }

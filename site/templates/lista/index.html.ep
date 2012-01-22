@@ -1,0 +1,27 @@
+% layout 'default';
+
+<h3>Lista de Discussão</h3>
+<hr size="1">
+
+<p>
+Na lista de discussão da Rio-PM você poderá tirar suas dúvidas (e as dúvidas dos outros!), conhecer outros monges e participar ativa ou passivamente das conversas sobre Perl - que vão do lançamento de novas versões até o melhor local para o próximo encontro social! ;-)
+</p>
+<p align="center"><a href="http://mail.pm.org/mailman/listinfo/rio-pm">Clique aqui para participar!</a></p>
+<p>A lista possui fluxo aleatório, e costuma oscilar entre 0 e 20 mensagens por semana, e todos os inscritos são encorajados a participarem de todos os tópicos que surgirem.</p>
+<h3 align="center"><b>Participe você também!!!</b></h3><b>
+<br>
+<!-- Google CSE Search Box Begins  -->
+<table align="center" valign="center" bgcolor="#ffeecd" bordercolor="#d46a36" border="1" cellspacing="0" cellpadding="6">
+<tbody><tr><td align="left">
+<i>Busca nos arquivos da lista:</i>
+<form id="searchbox_000338705846570739496:qeciwr0ud-i" action=" http://www.google.com/cse" _lpchecked="1">
+  <input type="hidden" name="cx" value="000338705846570739496:qeciwr0ud-i">
+  <input type="hidden" name="cof" value="FORID:0">
+  <input name="q" type="text" size="40">
+  <input type="submit" name="sa" value="Buscar!">
+  <img src=" http://www.google.com/coop/images/google_custom_search_smnar.gif" alt="Google Custom Search">
+</form>
+&nbsp;
+</td></tr>
+</tbody></table>
+
