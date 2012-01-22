@@ -24,6 +24,7 @@ sub startup {
         Mitos
         Lista
         Desenvolvimento
+        CPAN
     };
     Site::Loader::load( $self, @core_modules );
 }
