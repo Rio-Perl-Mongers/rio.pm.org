@@ -3,16 +3,6 @@
 
 <h3>Livros &amp; Resenhas</h3>
 <hr size="1">
-<table align="right">
-    <tbody>
-        <tr>
-            <td><script
-                    src="http://s6.smrtlnks.com/users/GenerateBlueLinks.php?feedUrl=http%3A%2F%2Fwww.oreillynet.com%2Fpub%2Ffeed%2F29%3Ftopic%3D37&amp;title=Novos%20Livros%20de%20Perl&amp;skin=lightGrey&amp;width=230&amp;numItems=2&amp;type=grid&amp;display=thumbs&amp;topLogo=oreilly.jpg&amp;logoLink=http://www.oreilly.com&amp;feedTitleLink=viewall&amp;columns=2&amp;xsl=oreilly.xsl&amp;blueSiteId=oreilly"
-                    type="text/javascript"></script></td>
-        </tr>
-    </tbody>
-</table>
-
 <p>Veja abaixo alguns dos principais livros de referência para a linguagem
     Perl, com atenção para as mini-resenhas, para saber qual o melhor livro
     para você de acordo com seu atual estágio de desenvolvimento. Em alguns
@@ -218,3 +208,14 @@
         </tr>
     </tbody>
 </table>
+
+<table align="right">
+    <tbody>
+        <tr>
+            <td><script
+                    src="http://s6.smrtlnks.com/users/GenerateBlueLinks.php?feedUrl=http%3A%2F%2Fwww.oreillynet.com%2Fpub%2Ffeed%2F29%3Ftopic%3D37&amp;title=Novos%20Livros%20de%20Perl&amp;skin=lightGrey&amp;width=230&amp;numItems=2&amp;type=grid&amp;display=thumbs&amp;topLogo=oreilly.jpg&amp;logoLink=http://www.oreilly.com&amp;feedTitleLink=viewall&amp;columns=2&amp;xsl=oreilly.xsl&amp;blueSiteId=oreilly"
+                    type="text/javascript"></script></td>
+        </tr>
+    </tbody>
+</table>
+
