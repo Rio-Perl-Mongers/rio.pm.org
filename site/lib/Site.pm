@@ -27,6 +27,7 @@ sub startup {
         Lista
         Desenvolvimento
         CPAN
+        Livros
         Diversao
     };
     Site::Loader::load( $self, @core_modules );
