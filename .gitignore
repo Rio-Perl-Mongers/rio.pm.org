@@ -1,3 +1,4 @@
 .project
 .includepath
 site/log
+.DS_Store

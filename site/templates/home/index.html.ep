@@ -4,13 +4,6 @@
 <h3>Saudações!</h3>
 <hr size="1">
 
-<!--
-<div id="yapc" style="border:#666666 4px solid;background:#000000;padding:2px;">
-<center>&nbsp;<br/><a href="http://www.perl.org.br/bin/view/YAPC/BR2007/WebHome"><font size="6" color="#FFFFFF">YAPC::Brasil::2007</font>
-<br/><font size="3" color="#EEEEFF">Yet Another Perl Conference - Brasil</font></a><br/>
-<i><font color="#BBBBBB">dias 9, 10 e 11 de novembro - junto ao </i><a href="http://www.conisli.org/" target="_blank"><font color="#6666EE">CONISLI</font></a></font>
-</div>
--->
 
 <p>
     Bem vindo(a) ao site do grupo de usuários, desenvolvedores e entusiastas
@@ -26,7 +19,7 @@
 
 <div class="destaque">
     <span>Novo em Perl?</span> Experimente nossa<br> <a
-        href="iniciantes.pl">seção para iniciantes</a>
+        href="<%= url_for('/iniciantes') %>">seção para iniciantes</a>
 </div>
 
 <br>
@@ -34,7 +27,7 @@
 <h3>Datas Importantes</h3>
 <hr size="1">
 <p>
-    YAPC::Brasil::2011: <strong>em breve!</strong><br> Próximo encontro
+    YAPC::Brasil::2012: <strong>em breve!</strong><br> Próximo encontro
     social:<strong> 9 de Fevereiro de 2012 </strong><br> Próximo encontro
     técnico:<strong> Em breve! </strong><br>
 
