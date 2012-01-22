@@ -29,6 +29,7 @@ sub startup {
         CPAN
         Livros
         Diversao
+        Regionais
     };
     Site::Loader::load( $self, @core_modules );
 }
