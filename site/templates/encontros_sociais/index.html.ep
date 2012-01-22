@@ -1,0 +1,35 @@
+% layout 'default';
+
+<h3>Encontros Sociais</h3>
+<hr size="1" />
+
+<p><i>Ah, os Encontros Sociais...</i></p>
+<p>Um momento sagrado, sempre na segunda 5a feira do m&ecirc;s, onde os monges abandonam suas preocupa&ccedil;&otilde;es e <i>deadlines</i> para entregarem-se &agrave; alegria, amizade, divers&atilde;o, papo descontra&iacute;do e um bom chopp gelado (apenas para os que podem, claro).
+</p>
+<h3 align="center">Venha participar voc&ecirc; tamb&eacute;m!</h3>
+
+<!--
+<b><i><p align="center" id="countdown"> </p></i></b>
+<script type="text/javascript">
+updateCountdown('countdown', Date.UTC(2012,02,09,19,0,0), new Date());
+setInterval("updateCountdown('countdown', Date.UTC(2012,02,09,19,0,0), new Date())", 1000);
+</script>
+-->
+
+<table align="center" valign="center" width="350px" height="50px" bgcolor="#ccccff"><tr><td align="center">
+<i>Pr&oacute;ximo encontro:</i> <strong> 9 de Fevereiro de 2012 </strong><br/><i>(a partir das <b>19:00</b>)</i></td></tr></table>
+<br/>
+<h3>Localiza&ccedil;&atilde;o:</h3>
+
+<!-- a definir -->
+<center><b>A definir.</b> <br/><i>(acompanhe a discuss&atilde;o na lista e vote em sua prefer&ecirc;ncia!)</i></center>
+
+
+
+<br/><br/>
+<h3>Fotos de eventos anteriores</h3>
+<p>Se voc&ecirc; (AINDA) n&atilde;o foi a um de nossos encontros sociais, veja aqui o que perdeu e n&atilde;o marque bobeira no pr&oacute;ximo!</p>
+<a href="http://www.flickr.com/photos/rio-pm/">Fotos dos encontros da Rio-PM</a>
+
+<br/><br/><br/><br/>
+

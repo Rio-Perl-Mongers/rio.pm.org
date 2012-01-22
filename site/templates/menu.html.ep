@@ -8,7 +8,7 @@
         <li><a href="<%= url_for('/diversao') %>">Diversão</a></li>
         <li><a href="<%= url_for('/desenvolvimento') %>">Desenvolvimento</a></li>
         <li><a href="<%= url_for('/lista') %>">Lista de discussão</a></li>
-        <li><a href="enc_sociais.pl">Encontros Sociais</a></li>
+        <li><a href="<%= url_for('/enc_sociais') %>">Encontros Sociais</a></li>
         <li><a href="enc_tecnicos.pl">Encontros Técnicos</a></li>
         <li><a href="livros.pl">Livros &amp; Resenhas</a></li>
         <li><a href="<%= url_for('/CPAN') %>">Módulos & CPAN</a></li>

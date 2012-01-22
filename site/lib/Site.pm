@@ -18,6 +18,7 @@ sub startup {
     my @core_modules = qw{
         Home
         Iniciantes
+        EncontrosSociais
         Sobre
         FAQ
         QuemUsa
