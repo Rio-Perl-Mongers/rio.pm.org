@@ -1,9 +1,9 @@
 <div id="menu">
     <ul class="menu">
         <li><a href="<%= url_for('/') %>">Home</a></li>
-        <li><a href="faq.pl">FAQ</a></li>
-        <li><a href="quem_usa.pl">Quem usa Perl?</a></li>
-        <li><a href="mitos.pl">Mitos/FUD</a></li>
+        <li><a href="<%= url_for('/FAQ') %>">FAQ</a></li>
+        <li><a href="<%= url_for('/quem_usa') %>">Quem usa Perl?</a></li>
+        <li><a href="<%= url_for('/mitos') %>">Mitos & FUD</a></li>
         <li><a href="<%= url_for('/iniciantes') %>">Iniciantes</a></li>
         <li><a href="diversao.pl">Diversão</a></li>
         <li><a href="desenv.pl">Desenvolvimento</a></li>
@@ -12,6 +12,6 @@
         <li><a href="enc_tecnicos.pl">Encontros Técnicos</a></li>
         <li><a href="livros.pl">Livros &amp; Resenhas</a></li>
         <li><a href="cpan.pl">Módulos e CPAN</a></li>
-        <li><a href="sobre.pl">Sobre a Rio-PM</a></li>
+        <li><a href="<%= url_for('/sobre') %>">Sobre a Rio-PM</a></li>
     </ul>
 </div>
