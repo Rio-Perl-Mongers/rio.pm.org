@@ -19,6 +19,7 @@ sub startup {
         Home
         Iniciantes
         EncontrosSociais
+        EncontrosTecnicos
         Sobre
         FAQ
         QuemUsa
