@@ -1,16 +1,10 @@
-
 use strict;
 use warnings;
-use inc::Module::Install;
 
-name 'Site';
-all_from 'lib/Site.pm';
+use ExtUtils::MakeMaker;
 
-requires 'Mojolicious' => 3.36;
-
-test_requires 'Test::More' => 0.42;
-
-license 'perl';
-
-WriteAll;
-
+WriteMakefile(
+  VERSION   => '0.01',
+  PREREQ_PM => {'Mojolicious' => '3.36'},
+  test      => {TESTS => 't/*.t'}
+);
