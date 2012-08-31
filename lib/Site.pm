@@ -13,7 +13,7 @@ sub startup {
 
     # Documentation browser under "/perldoc" (this plugin requires Perl 5.10)
     $self->plugin('PODRenderer');
-
+    $self->plugin('Config');
     # Loading Modules
     my @core_modules = qw{
         Home
