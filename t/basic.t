@@ -13,4 +13,3 @@ my @pages_index = (
 my $t = Test::Mojo->new('Site');
 
 map { $t->get_ok("/$_")->status_is(200) } @pages_index;
-
