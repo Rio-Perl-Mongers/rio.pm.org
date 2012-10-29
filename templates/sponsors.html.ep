@@ -1,18 +1,2 @@
 <div id="sponsors">
-    <p>
-        <a href="http://hacknrio.org">
-            <img
-                src="http://hacknrio.org/images/stories/hacknrio_banners/hackinrio_banner_468_60.png"
-                alt="hack n rio"
-            />
-        </a>
-    </p>
-    
-    <p>
-        <a href="http://www.oreilly.com/store/">
-            <img
-                src="http://ug.oreilly.com/images/ads/ug_discount_470x60.gif"
-            />
-        </a>
-    </p>
 </div>
