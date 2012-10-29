@@ -30,6 +30,7 @@ sub startup {
         Livros
         Diversao
         Regionais
+        QuackNHack
     };
     Site::Loader::load( $self, @core_modules );
 }

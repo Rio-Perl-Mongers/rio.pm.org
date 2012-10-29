@@ -1,6 +1,7 @@
 <div id="menu">
     <ul class="menu">
         <li><a href="<%= url_for('/') %>">Home</a></li>
+        <li><a href="<%= url_for('/quack-and-hack') %>">Quack & Hack</a></li>
         <li><a href="<%= url_for('/FAQ') %>">FAQ</a></li>
         <li><a href="<%= url_for('/quem_usa') %>">Quem usa Perl?</a></li>
         <li><a href="<%= url_for('/mitos') %>">Mitos & FUD</a></li>
