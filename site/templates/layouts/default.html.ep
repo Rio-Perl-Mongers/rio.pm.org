@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            <%= title || 'Rio de Janeiro Perl Mongers' %>
+        </title>
+        
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Rio de Janeiro <br />
+                Perl Mongers
+            </h1>
+            
+            <h2>
+                CPAN é a linguagem. Perl é apenas a sintaxe.
+            </h2>
+            
+            <a href="http://rio.perl.org.br/">
+                <img
+                    width="760" height="175"
+                    alt="Rio de Janeiro Perl Mongers"
+                    src="/images/bg1.png"
+                    id="frontphoto"
+                />
+            </a>
+        </header>
+        
+        <div id="left_bar">
+            <div id="menu">
+                <ul class="menu">
+                    <li><a href="<%= url_for('/') %>">Home</a></li>
+                    <li><a href="<%= url_for('/quack-and-hack') %>">Quack & Hack</a></li>
+                    <li><a href="<%= url_for('/FAQ') %>">FAQ</a></li>
+                    <li><a href="<%= url_for('/quem_usa') %>">Quem usa Perl?</a></li>
+                    <li><a href="<%= url_for('/mitos') %>">Mitos & FUD</a></li>
+                    <li><a href="<%= url_for('/iniciantes') %>">Iniciantes</a></li>
+                    <li><a href="<%= url_for('/diversao') %>">Diversão</a></li>
+                    <li><a href="<%= url_for('/desenvolvimento') %>">Desenvolvimento</a></li>
+                    <li><a href="<%= url_for('/lista') %>">Lista de discussão</a></li>
+                    <li><a href="<%= url_for('/enc_sociais') %>">Encontros Sociais</a></li>
+                    <li><a href="<%= url_for('/enc_tecnicos') %>">Encontros Técnicos</a></li>
+                    <li><a href="<%= url_for('/livros_e_resenhas') %>">Livros &amp; Resenhas</a></li>
+                    <li><a href="<%= url_for('/CPAN') %>">Módulos & CPAN</a></li>
+                    <li><a href="<%= url_for('/sobre') %>">Sobre a Rio-PM</a></li>
+                    <li><a href="<%= url_for('/regionais') %>">+ Regionais PM</a></li>
+                </ul>
+            </div>
+
+            <div id="logos">
+                <a href="http://www.pm.org/">
+                    <img src="/images/pm.jpg" />
+                </a>
+                
+                <a href="http://www.perl.org/">
+                    <img src="/images/perl.org.png" />
+                </a>
+                
+                <a href="http://www.perl.org.br/">
+                    <img src="/images/perl-br.png" />
+                </a>
+                
+                <h4>A Rio-PM agradece a:</h4>
+                
+                <script
+                    type="text/javascript"
+                    src="http://www.perl.org/misc/site-sponsor-js.html?notext=1"
+                >
+                </script>
+                
+                <p>
+                    pelo
+                    <a href="http://www.perl.org/siteinfo.html#sponsors">
+                        patrocínio
+                    </a>
+                    ao Perl
+                </p>
+            </div>
+        </div>
+        
+        <div id="content">
+            <%= content %>
+           
+            <div id="sponsors">
+            </div>
+ 
+        </div>
+        
+        <!--div id="right_bar">
+            <%= include 'enquete' %>
+            <%= include 'links' %>
+            <%= include 'regionais' %>
+        </div-->
+        
+        <div id="footer">
+            <p>
+                Copyright &copy; 2012 Rio de Janeiro Perl Mongers.
+            </p>
+
+            <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+            <script type="text/javascript">
+              _uacct = "UA-2653158-1";
+              urchinTracker();
+            </script>
+        </div>
+    </body>
+</html>

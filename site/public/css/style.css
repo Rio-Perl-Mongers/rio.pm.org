@@ -1,0 +1,144 @@
+html {
+    margin: 0 auto;
+    padding: 0;
+    font: 76% Verdana, Tahoma, Arial, sans-serif;
+    color: #333;
+    background: #f4f4f4 url(/images/bg.gif) top center repeat-y;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0 auto;
+    width: 760px;
+}
+
+header {
+    color: #555;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+header > h1 {
+    float: left;
+    font-size: 2.2em;
+    margin: 0 0 10px;
+    color: #505050;
+    width: 250px;
+}
+
+header > h2 {
+    float: right;
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#left_bar {
+    width: 178px;
+    padding: 0px 2px 2px 0px;
+    float: left;
+}
+
+ul.menu {
+    padding: 0px;
+    margin-top: 0px;
+    list-style: none;
+}
+
+ul.menu > li {
+    padding: 4px;
+    margin: 0px 2px 4px 0px;
+    display: block;
+    background-color: #ffe0a3;
+    border-left: 4px solid #ff9600;
+    line-height: 1.4em;
+}
+
+ul.menu > li > a {
+    color: #555;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 5px;
+
+}
+
+ul.menu > li:hover {
+    background-color: #ffd177;
+    border-left: 4px solid #ff0000;
+}
+
+#frontphoto {
+    margin:0 0 10px;
+    border:0;
+}
+
+#content {
+    border-left: solid #ccc 1px;
+    width: 559px;
+    padding: 10px;
+    float: left;
+}
+
+p {
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+#logos {
+    margin-top: 40px;
+}
+
+#logos > h4, #logos p {
+    text-align: center;
+}
+
+#site-sponsor-js {
+    text-align: center;
+    border: solid #ccc 1px;
+}
+
+#site-sponsor-js a {
+    clear: both;
+}
+
+#site-sponsor-js a img {
+    clear: both;
+    margin: 10px;
+}
+
+#sponsors > p {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#footer {
+    width: 760px;
+    clear: both;
+    border-top: solid #ccc 1px;
+    padding-top: 5px;
+}
+
+#footer > p {
+    font-size: 8pt;
+    text-align: center;
+}
+
+
+a {
+    text-decoration:none;
+    font-weight:bold;
+    color:#835412; /* #286ea0; */
+    background-color:inherit;
+}
+
+a:hover {
+    text-decoration:underline;
+    color:#835412; /* #286ea0; */
+    background-color:inherit;
+}
+
+a img {
+    border:0;
+}
