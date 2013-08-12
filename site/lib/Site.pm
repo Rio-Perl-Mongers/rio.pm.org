@@ -10,17 +10,17 @@ sub startup {
 
     # Router
     my $r = $self->routes;
-    $r->namespaces(['Site::Controller']);
+    $r->namespaces( ['Site::Controller'] );
 
     # rota default
     $r->any('/')->to('home#index');
-    
+
     # config rotas customizadas
     Site::Routes->load($r);
 
     # rotas genéricas controller/action
     $r->any('/:controller/:action/:id')
-        ->to(controller=>'home', action=>'index', id=>0);
+      ->to( controller => 'home', action => 'index', id => 0 );
 }
 
 1;

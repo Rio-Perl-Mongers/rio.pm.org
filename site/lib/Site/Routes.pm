@@ -4,6 +4,9 @@ use Mojo::Base -strict;
 sub load {
     my ( $class, $route ) = @_;
 
+    # error
+    die "error with route instance!\n" unless $route;
+
     # custom routes
     my $custom = {
         '/quack-and-hack'     => 'home#quacknhack',
