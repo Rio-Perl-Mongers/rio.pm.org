@@ -5,7 +5,8 @@ sub load {
     my ( $class, $route ) = @_;
 
     # error
-    die "error with route instance!\n" unless $route;
+    die "error with route instance!\n" 
+        unless $route && $route->isa('Mojolicious::Routes');
 
     # custom routes
     my $custom = {
