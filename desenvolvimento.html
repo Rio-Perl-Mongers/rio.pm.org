@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            
+        </title>
+        
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Rio de Janeiro <br />
+                Perl Mongers
+            </h1>
+            
+            <h2>
+                CPAN é a linguagem. Perl é apenas a sintaxe.
+            </h2>
+            
+            <a href="http://rio.perl.org.br/">
+                <img
+                    width="760" height="175"
+                    alt="Rio de Janeiro Perl Mongers"
+                    src="/images/bg1.png"
+                    id="frontphoto"
+                />
+            </a>
+        </header>
+        
+        <div id="left_bar">
+            <div id="menu">
+    <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/quack-and-hack.html">Quack &amp; Hack</a></li>
+        <li><a href="/FAQ.html">FAQ</a></li>
+        <li><a href="/quem_usa.html">Quem usa Perl?</a></li>
+        <li><a href="/mitos.html">Mitos &amp; FUD</a></li>
+        <li><a href="/iniciantes.html">Iniciantes</a></li>
+        <li><a href="/diversao.html">Diversão</a></li>
+        <li><a href="/desenvolvimento.html">Desenvolvimento</a></li>
+        <li><a href="/lista.html">Lista de discussão</a></li>
+        <li><a href="/enc_sociais.html">Encontros Sociais</a></li>
+        <li><a href="/enc_tecnicos.html">Encontros Técnicos</a></li>
+        <li><a href="/livros_e_resenhas.html">Livros &amp; Resenhas</a></li>
+        <li><a href="/CPAN.html">Módulos &amp; CPAN</a></li>
+        <li><a href="/sobre.html">Sobre a Rio-PM</a></li>
+        <li><a href="/regionais.html">+ Regionais PM</a></li>
+    </ul>
+</div>
+
+            <div id="logos">
+    <a href="http://www.pm.org/">
+        <img src="/images/pm.jpg" />
+    </a>
+    
+    <a href="http://www.perl.org/">
+        <img src="/images/perl.org.png" />
+    </a>
+    
+    <a href="http://www.perl.org.br/">
+        <img src="/images/perl-br.png" />
+    </a>
+    
+    <h4>A Rio-PM agradece a:</h4>
+    
+    <script
+        type="text/javascript"
+        src="http://www.perl.org/misc/site-sponsor-js.html?notext=1"
+    >
+    </script>
+    
+    <p>
+        pelo
+        <a href="http://www.perl.org/siteinfo.html#sponsors">
+            patrocínio
+        </a>
+        ao Perl
+    </p>
+</div>
+
+        </div>
+        
+        <div id="content">
+            
+
+
+<h3>Desenvolvimento</h3>
+<hr size="1">
+
+<!-- Trecho das buscas Firefox -->
+<script type="text/javascript">
+function addEngine(name, ext)
+{
+    if ((typeof window.sidebar == "object") && (typeof window.sidebar.addSearchEngine == "function")) {
+    window.sidebar.addSearchEngine(
+        "http://mycroft.mozdev.org/external.php/" + name + ".src",
+        "http://mycroft.mozdev.org/external.php/" + name + "."+ ext, "", "");
+    } else {
+        alert("You will need a browser which supports Sherlock to install this plugin.");
+    }
+}
+
+function addOpenSearch(name,ext,meth)
+{
+    if ((typeof window.external == "object") && ((typeof window.external.AddSearchProvider == "unknown") || (typeof window.external.AddSearchProvider == "function"))) {
+        if ((typeof window.external.AddSearchProvider == "unknown") && meth == "p") {
+            alert("This plugin uses POST which is not currently supported by Internet Explorer's implementation of OpenSearch.");
+        } else {
+            window.external.AddSearchProvider(
+            "http://mycroft.mozdev.org/externalos.php/" + name + ".xml");
+        }
+    } else {
+        alert("You will need a browser which supports OpenSearch to install this plugin.");
+    }
+}
+</script>
+
+<i>"Perl foi projetado para te deixar fazer tudo de muitas maneiras diferentes, então considere escolher a mais legível delas."</i>
+<br>— Larry Wall, perl man page.
+<br><br><br>
+<!--
+<img src="src/images/firefox.png" align="right"/><br/><br/>
+-->
+<div id="firefox" style="width:440px;padding:5px;border:#AA0000 2px solid;background-color:#F5D2C3;">
+<h3>Buscas do Firefox:</h3>
+<!--
+<p>Agora ficou mais f&aacute;cil encontrar o que voc&ecirc; quer com os plugins de busca no <a href="#" onClick="addEngine('cpan','gif','Computer','0');return false">CPAN</a> e <a href="#" onClick="addEngine('perldoc','png','Programming','4441');return false">PerlDoc</a>. Experimente!
+-->
+<p>Agora ficou mais fácil encontrar o que você quer com os plugins de busca no <a href="#" onclick="addOpenSearch('search.cpan','gif','Computer','0');return false">CPAN</a> e <a href="#" onclick="addEngine('perldoc','png','Programming','4441');return false">PerlDoc</a>. Experimente!
+
+</p>
+</div>
+<br>
+<div id="perlcast">
+<a href="http://www.perlcast.com/"><img src="/images/desenvolvimento/perlcast_small.gif" alt="PerlCast" align="left">PerlCast</a><br><br>
+<b>Última Transmissão:</b><i> Stevan Little on Moose </i><br>
+<b>Descrição:</b> <i>"Stevan Little discusses Moose, an object framework for Perl."</i><br><br>
+<!-- <a href="http://www.perlcast.com/audio/Perlcast_Interview_050.mp3">baixe/ou&ccedil;a aqui!</a><br/> -->
+<form name="antigos">
+<select name="opcoes" style="width:200px;background:#66CCFF;font:11px arial, helvetica, sans-serif;color:#183245"><option value="http://www.perlcast.com/audio/Perlcast_Interview_050.mp3">Stevan Little on Moose</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_049.mp3">Jeff Thalhammer on Perl::Critic</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_048.mp3">Michel Rodriguez on XML::Twig</option><option value="http://www.perlcast.com/audio/Perlcast_Presentation_006.mp3">Fear and Loathing in Perl</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_047.mp3">Jeff Horwitz on mod_parrot</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_046.mp3">Curtis 'Ovid' Poe on Logic Programming</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_045.mp3">Stas Bekman and Philippe M. Chiasson on mod_perl</option><option value="http://www.perlcast.com/audio/Perlcast_Presentation_005.mp3">Making My Own CPAN</option><option value="http://www.perlcast.com/audio/perlnews-2007-09-13.mp3">Perl News 2007-09-13</option><option value="http://www.perlcast.com/audio/perlnews-2007-08-26.mp3">Perl News 2007-08-26</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_044.mp3">Ross Turk of SourceForge.net</option><option value="http://www.perlcast.com/audio/perlnews-2007-07-20.mp3">Perl News 2007-07-20</option><option value="http://www.perlcast.com/audio/Perlcast_Presentation_004.mp3">"Learning Perl 6" by brian d foy</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_043.mp3">Matt Trout on DBIx::Class</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_042.mp3">Curtis "Ovid" Poe on Testing</option><option value="http://www.perlcast.com/audio/Perlcast_Presentation_003.mp3">Nordic Perl Workshop 2007: brian d foy's lightning talk on benchmarking Perl</option><option value="http://www.perlcast.com/audio/perlnews-2007-04-26.mp3">Perl News 2007-04-26</option><option value="http://www.perlcast.com/audio/Perlcast_Presentation_002.mp3">brian d foy on Benchmarking</option><option value="http://www.perlcast.com/audio/perlnews-2007-03-14.mp3">Perl News 2007-03-14</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_041.mp3">Intervew with Josh McAdams about YAPC::NA 2006 Conducted By Jason Gessner</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_040.mp3">Intervew with Uri Guttman</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_039.mp3">Intervew with Jeffrey Tallhammer, The Creator and Maintainer of Perl Critic</option><option value="http://www.perlcast.com/audio/perlnews-2007-01-20.mp3">Perl News 2007-01-20</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_038.mp3">Intervew with Tim Bunce, creator and maintainer of the Perl DBI</option><option value="http://www.perlcast.com/audio/perlnews-2006-12-02.mp3">Perl News 2006-12-02</option></select>
+<input type="button" onclick="location=document.antigos.opcoes.options[document.antigos.opcoes.selectedIndex].value;" value="baixe/ouça aqui!">
+</form>
+<br>
+<!--
+<object width="300 height="42">
+<param name="src" value="http://www.perlcast.com/audio/Perlcast_Interview_050.mp3">
+<param name="autoplay" value="false">
+<param name="controller" value="true">
+<embed src="http://www.perlcast.com/audio/Perlcast_Interview_050.mp3" autostart="false" loop="false" width="300" height="42" controller="true"></embed>
+</object>
+-->
+
+</div>
+
+<br><br>
+<div id="webframeworks" style="width:240px;padding:5px;border:#666666 2px solid;background-color:#FEFEFE;"> <!-- #AAAADD, #DDDDFF -->
+<h3>Frameworks para Web:</h3>
+<hr size="1">
+Em Perl é muito fácil criar aplicativos para Web. Mas, para tornar isso ainda mais fácil, times experientes de desenvolvedores criam seus próprios frameworks que aliviam e automatizam tarefas comuns como estrutura, acesso a banco de dados, templating, gerenciamento de sessão, entre tantos outros, tornando a criação de aplicativos robustos algo simples, dinâmico e agradável. Veja aqui alguns dos mais conhecidos e utilizados:
+<hr size="1">
+<a href="http://www.usegantry.org/">Gantry</a>&nbsp;&nbsp;&nbsp;
+<a href="http://jifty.org/">Jifty</a>&nbsp;&nbsp;&nbsp;
+<a href="http://www.catalystframework.org/">Catalyst</a>&nbsp;&nbsp;&nbsp;
+<a href="http://maypole.perl.org/">Maypole</a>
+<br><hr size="1">
+<a href="http://www.cgi-app.org/">CGI::Application</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://search.cpan.org/perldoc?CGI::Prototype/">CGI::Prototype</a>
+<br><hr size="1">
+<a href="http://solstice.eplt.washington.edu/">Solstice</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://search.cpan.org/dist/CGI-Ex/">CGI::Ex</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://axkit.org/">Apache AxKit</a>
+<br><hr size="1">
+<a href="http://handelframework.com/">Handel</a>
+<p></p>
+</div>
+
+<div id="templates" style="position:relative;left:260px;top:-430px;width:190px;padding:5px;border:#00AA00 2px solid;background-color:#F0FFF0;">
+<h3>Templates:</h3>
+<hr size="1">
+Templates permitem que sua aplicação Web produza documentos dinâmicos com facilidade, velocidade e, principalmente, seguindo o mesmo modelo e formato visual. Através de sistemas de template é possível gerar e passar conteúdo para suas páginas sem que o designer precise se preocupar de antemão em qual será o conteúdo. Em muitos casos, ele não precisa nem saber programar! Escolha o seu:
+<hr size="1">
+<a href="http://www.template-toolkit.org/">Template Toolkit</a> &nbsp;&nbsp;&nbsp;
+<a href="http://www.masonhq.com/">Mason</a><hr size="1">
+<a href="http://html-template.sourceforge.net/">HTML::Template</a>&nbsp;&nbsp;&nbsp;
+<a href="http://perl.apache.org/embperl/">Embperl</a>
+</div>
+
+            <div id="sponsors">
+</div>
+
+        </div>
+        
+        <!--div id="right_bar">
+            
+<h3>Enquete:</h3>
+<p>Qual foi sua primeira impressão sobre o <a href="http://rakudo.org">Rakudo Star</a>?</p>
+<form name="enquete" action="enquete.pl" method="get" enctype="application/x-www-form-urlencoded">
+<p>
+<input name="vota" value="1" type="radio">É a tecnologia mais excitante desde que inventaram o pregador de roupa<br>
+<input name="vota" value="2" type="radio">É mais viciante que o novo Starcraft<br>
+<input name="vota" value="3" type="radio">Avançado demais para a maioria dos seres humanos (...mas os golfinhos acharam moleza)<br>
+<input name="vota" value="4" type="radio">Minha lesma de estimação, é mais rápida<br>
+<input name="vota" value="5" type="radio">Rakudo Star? É parente do Ringo Star?<br>
+<input name="vota" value="6" type="radio">Droga! Não tem perldoc<br>
+<input name="vota" value="7" type="radio">Outra<br>
+<input value="Vote!" type="submit">
+</p>
+</form>
+
+<p>
+<a href="enquete.pl?exibe=004">Resultados</a>, <a href="enquete.pl?exibe=antigas">enquetes antigas</a></p>
+
+            <h3>Links:</h3>
+<p>
+    - <a target="_blank" href="http://perl.org/">Perl.org</a><br> - <a
+        target="_blank" href="http://www.perl.com/">Perl.com</a><br> - <a
+        target="_blank" href="http://www.perlmonks.org/">Perl Monks</a><br>
+    - <a target="_blank" href="http://www.perlfoundation.org/">Perl
+        Foundation</a><br> - <a target="_blank" href="http://planet.perl.org">Planet
+        Perl</a><br> - <a target="_blank" href="http://www.perlcast.com/">PerlCast</a><br>
+    - <a target="_blank" href="http://www.pm.org/">Perl Mongers</a><br> -
+    <a target="_blank" href="http://perl.org.br/">Sociedade Perl<br>&nbsp;&nbsp;do
+        Brasil</a><br>
+</p>
+
+            <h3>Regionais:</h3>
+<p>
+    Encontre a comunidade Perl mais próxima de você!<br> <br> - <a
+        target="_blank" href="http://cascavel.pm.org/">Cascavel</a><br> -
+    <a target="_blank" href="http://campinas.pm.org/">Campinas</a><br> -
+    <a target="_blank" href="http://fortaleza.pm.org/">Fortaleza</a><br>
+    - <a target="_blank" href="http://recife.pm.org/">Recife</a><br> - <a
+        target="_blank" href="http://salvador.pm.org/">Salvador</a><br> -
+    <a target="_blank" href="http://sao-paulo.pm.org/">São Paulo</a><br>
+    - <a target="_blank" href="http://vitoria.pm.org/">Vitória</a><br>
+</p>
+
+        </div-->
+        
+        <div id="footer">
+            <p>
+    Copyright &copy; 2012 Rio de Janeiro Perl Mongers.
+</p>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+  _uacct = "UA-2653158-1";
+  urchinTracker();
+</script>
+
+        </div>
+    </body>
+</html>

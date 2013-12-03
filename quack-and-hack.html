@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            
+        </title>
+        
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Rio de Janeiro <br />
+                Perl Mongers
+            </h1>
+            
+            <h2>
+                CPAN é a linguagem. Perl é apenas a sintaxe.
+            </h2>
+            
+            <a href="http://rio.perl.org.br/">
+                <img
+                    width="760" height="175"
+                    alt="Rio de Janeiro Perl Mongers"
+                    src="/images/bg1.png"
+                    id="frontphoto"
+                />
+            </a>
+        </header>
+        
+        <div id="left_bar">
+            <div id="menu">
+    <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/quack-and-hack.html">Quack &amp; Hack</a></li>
+        <li><a href="/FAQ.html">FAQ</a></li>
+        <li><a href="/quem_usa.html">Quem usa Perl?</a></li>
+        <li><a href="/mitos.html">Mitos &amp; FUD</a></li>
+        <li><a href="/iniciantes.html">Iniciantes</a></li>
+        <li><a href="/diversao.html">Diversão</a></li>
+        <li><a href="/desenvolvimento.html">Desenvolvimento</a></li>
+        <li><a href="/lista.html">Lista de discussão</a></li>
+        <li><a href="/enc_sociais.html">Encontros Sociais</a></li>
+        <li><a href="/enc_tecnicos.html">Encontros Técnicos</a></li>
+        <li><a href="/livros_e_resenhas.html">Livros &amp; Resenhas</a></li>
+        <li><a href="/CPAN.html">Módulos &amp; CPAN</a></li>
+        <li><a href="/sobre.html">Sobre a Rio-PM</a></li>
+        <li><a href="/regionais.html">+ Regionais PM</a></li>
+    </ul>
+</div>
+
+            <div id="logos">
+    <a href="http://www.pm.org/">
+        <img src="/images/pm.jpg" />
+    </a>
+    
+    <a href="http://www.perl.org/">
+        <img src="/images/perl.org.png" />
+    </a>
+    
+    <a href="http://www.perl.org.br/">
+        <img src="/images/perl-br.png" />
+    </a>
+    
+    <h4>A Rio-PM agradece a:</h4>
+    
+    <script
+        type="text/javascript"
+        src="http://www.perl.org/misc/site-sponsor-js.html?notext=1"
+    >
+    </script>
+    
+    <p>
+        pelo
+        <a href="http://www.perl.org/siteinfo.html#sponsors">
+            patrocínio
+        </a>
+        ao Perl
+    </p>
+</div>
+
+        </div>
+        
+        <div id="content">
+            
+  
+<div id="contents">
+  <style type="text/css">
+    .c5{font-weight:bold}
+    /*
+    ol{margin:0;padding:0}
+    .c8{max-width:468pt;background-color:#ffffff;padding:72pt 72pt 72pt 72pt}
+    .c6{list-style-type:disc;margin:0;padding:0}
+    .c7{font-size:10pt;font-style:italic}
+    .c2{color:#1155cc;text-decoration:underline}
+    .c4{padding-left:0pt;margin-left:36pt}
+    .c3{color:inherit;text-decoration:inherit}
+    .c0{direction:ltr}
+    .c1{height:11pt}
+    .title{padding-top:24pt;line-height:1.15;text-align:left;color:#000000;font-size:36pt;font-family:"Arial";font-weight:bold;padding-bottom:6pt}
+    .subtitle{padding-top:18pt;line-height:1.15;text-align:left;color:#666666;font-style:italic;font-size:24pt;font-family:"Georgia";padding-bottom:4pt}
+    li{color:#000000;font-size:11pt;font-family:"Arial"}
+    p{color:#000000;font-size:11pt;margin:0;font-family:"Arial"}
+    h1{padding-top:24pt;line-height:1.15;text-align:left;color:#000000;font-size:18pt;font-family:"Arial";font-weight:bold;padding-bottom:6pt}
+    h2{padding-top:18pt;line-height:1.15;text-align:left;color:#000000;font-size:14pt;font-family:"Arial";font-weight:bold;padding-bottom:4pt}
+    h3{padding-top:14pt;line-height:1.15;text-align:left;color:#666666;font-size:12pt;font-family:"Arial";font-weight:bold;padding-bottom:4pt}
+    h4{padding-top:12pt;line-height:1.15;text-align:left;color:#666666;font-style:italic;font-size:11pt;font-family:"Arial";padding-bottom:2pt}
+    h5{padding-top:11pt;line-height:1.15;text-align:left;color:#666666;font-size:10pt;font-family:"Arial";font-weight:bold;padding-bottom:2pt}
+    h6{padding-top:10pt;line-height:1.15;text-align:left;color:#666666;font-style:italic;font-size:10pt;font-family:"Arial";padding-bottom:2pt}
+    */
+
+  </style>
+  <h2 class="c0">
+    <a name="h.momqymvnwz0o">
+    </a>
+    <span>Quack &amp; Hack Rio
+    </span>
+  </h2>
+  <a href="https://duckduckgo.com/" target="duckduckgo">
+    <img style="margin-left:30px" border="0" src="http://act.yapc.eu/qh2012eu/img/duckduckgo_128x128.png">
+  </a>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span class="c7">(For the english version, skip to the end)
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Faremos amanhã um Hackathon impromptu, no formato 
+  </span>
+  <span class="c5">Quack &amp; Hack
+  </span>
+  <span>, conduzido pelo 
+  </span>
+  <span class="c5">Torsten Raudssus (Getty)
+  </span>
+  <span>, do 
+  </span>
+  <span class="c5">DuckDuckGo
+  </span>
+  <span> (DDG), que está de passagem por aqui, após apresentar no YAPC::Brasil + ConferênciaWeb W3C em São Paulo na semana passada!
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Dia e Horário:
+  </span>
+  <span class="c5"> Amanhã. terça-feira, 30/10/2012, a partir das 4pm
+  </span>
+  </p>
+  <p class="c0">
+  <span>Local: 
+  </span>
+  <span class="c5">Starbucks do Shopping Rio Sul 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://www.starbucks.com.br/store/20310/">http://www.starbucks.com.br/store/20310/
+    </a>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Shopping Rio Sul: 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://www.riosul.com.br/">http://www.riosul.com.br/
+    </a>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Mapa: 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://goo.gl/maps/fCyHr">http://goo.gl/maps/fCyHr
+    </a>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Esta chamada, online: 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://rio.pm.org/quack-and-hack">http://rio.pm.org/quack-and-hack
+    </a>
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>DDG é uma startup que está se diferenciando e encontrando tração no setor de busca, com uma stack surpreendentemente simples (perl, nginx, postgresql, freebsd, memcached) e uma atitude muito bacana: 
+  </span>
+  <span class="c2">
+    <a class="c3" href="https://duckduckgo.com/about.html">https://duckduckgo.com/about.html
+    </a>
+  </span>
+  <span> 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://dontbubble.us/">http://dontbubble.us/
+    </a>
+  </span>
+  <span> 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://donttrack.us/">http://donttrack.us/
+    </a>
+  </span>
+  <span> 
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Quack &amp; Hack é uma iniciativa do DDG para a divulgação e promoção do Perl. A idéia é agregar interessados, iniciantes e veteranos para juntos caolocarmos a mão na massa, trocar dicas e figurinhas, seja contribuindo com as iniciativas opensource do DDG (
+  </span>
+  <span class="c2">
+    <a class="c3" href="https://github.com/duckduckgo">https://github.com/duckduckgo
+    </a>
+  </span>
+  <span>), seja tocando os projetos próprios.
+  </span>
+  <span>  Uma linha em que o Getty está especialmente interessado em  discutir e trabalhar é na internacionalização do DDG, para facilitar com que sua interface seja localizada para outros idiomas.
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Seguem alguns links interessantes sobre DDG:
+  </span>
+  </p>
+  <ol class="c6" start="1">
+    <li class="c4 c0">
+    <span class="c2">
+      <a class="c3" href="https://duckduckgo.com/traffic.html">https://duckduckgo.com/traffic.html
+      </a>
+    </span>
+    </li>
+    <li class="c4 c0">
+    <span class="c2">
+      <a class="c3" href="http://www.quora.com/DuckDuckGo-company">http://www.quora.com/DuckDuckGo-company
+      </a>
+    </span>
+    </li>
+    <li class="c0 c4">
+    <span class="c2">
+      <a class="c3" href="https://en.wikipedia.org/wiki/Duck_Duck_Go#Reception">https://en.wikipedia.org/wiki/Duck_Duck_Go#Reception
+      </a>
+    </span>
+    </li>
+    <li class="c4 c0">
+    <span class="c2">
+      <a class="c3" href="http://www.gabrielweinberg.com/blog/2009/03/duck-duck-go-architecture.html">http://www.gabrielweinberg.com/blog/2009/03/duck-duck-go-architecture.html
+      </a>
+    </span>
+    </li>
+  </ol>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Abraço, e até lá!
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Nuba Princigalli
+  </span>
+  </p>
+  <p class="c0">
+  <span>Rio de Janeiro Perl Mongers
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <hr>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span class="c7">(English version)
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <h2 class="c0">
+    <a name="h.pqek4bop5e9o">
+    </a>
+    <span>Quack &amp; Hack Rio
+    </span>
+  </h2>
+  <a href="https://duckduckgo.com/" target="duckduckgo">
+    <img style="margin-left:30px" border="0" src="http://act.yapc.eu/qh2012eu/img/duckduckgo_128x128.png">
+  </a>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>We&#39;ll hold tomorrow an impromtu Quack &amp; Hack hackathon, conducted by Torsten Raudssus (Getty) from DuckDuckGo (DDG), who&#39;s visiting Rio de Janeiro after presenting at YAPC::Brasil + ConferenciaWeb W3C in Sao Paulo last week.
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>When:
+  </span>
+  <span class="c5"> Amanhã. terça-feira, 30/10/2012, a partir das 4pm
+  </span>
+  </p>
+  <p class="c0">
+  <span>Where
+  </span>
+  <span>: 
+  </span>
+  <span class="c5">Starbucks do Shopping Rio Sul 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://www.starbucks.com.br/store/20310/">http://www.starbucks.com.br/store/20310/
+    </a>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Shopping Rio Sul: 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://www.riosul.com.br/">http://www.riosul.com.br/
+    </a>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Map: 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://goo.gl/maps/fCyHr">http://goo.gl/maps/fCyHr
+    </a>
+  </span>
+  </p>
+  <p class="c0">
+  <span>This announcement, online: 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://rio.pm.org/quack-and-hack">http://rio.pm.org/quack-and-hack
+    </a>
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>DDG is a startups which is differentiating itself, and finding traction in the search sector, with a surprisingly simple stack (perl, nginx, postgresql, freebsd, memcached) and a very cool attitude: 
+  </span>
+  <span class="c2">
+    <a class="c3" href="https://duckduckgo.com/about.html">https://duckduckgo.com/about.html
+    </a>
+  </span>
+  <span> 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://dontbubble.us/">http://dontbubble.us/
+    </a>
+  </span>
+  <span> 
+  </span>
+  <span class="c2">
+    <a class="c3" href="http://donttrack.us/">http://donttrack.us/
+    </a>
+  </span>
+  <span> 
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Quack &amp; Hack is a DDG initiative to divulge and promote Perl. The idea is to have a gathering of people interested in Perl from all levels, beginners and veterans, and get hands-on together, exchanging tips and tricks, while contributing to DDG&#39;s opensource initiatives (
+  </span>
+  <span class="c2">
+    <a class="c3" href="https://github.com/duckduckgo">https://github.com/duckduckgo
+    </a>
+  </span>
+  <span>) or hacking on our own things. Something Getty is pretty much interested right now it in discussing and working in DDG internationalization, to make it easier for it to be localized into other languages.
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Below are some interesting links about DDG:
+  </span>
+  </p>
+  <ol class="c6" start="5">
+    <li class="c4 c0">
+    <span class="c2">
+      <a class="c3" href="https://duckduckgo.com/traffic.html">https://duckduckgo.com/traffic.html
+      </a>
+    </span>
+    </li>
+    <li class="c4 c0">
+    <span class="c2">
+      <a class="c3" href="http://www.quora.com/DuckDuckGo-company">http://www.quora.com/DuckDuckGo-company
+      </a>
+    </span>
+    </li>
+    <li class="c4 c0">
+    <span class="c2">
+      <a class="c3" href="https://en.wikipedia.org/wiki/Duck_Duck_Go#Reception">https://en.wikipedia.org/wiki/Duck_Duck_Go#Reception
+      </a>
+    </span>
+    </li>
+    <li class="c4 c0">
+    <span class="c2">
+      <a class="c3" href="http://www.gabrielweinberg.com/blog/2009/03/duck-duck-go-architecture.html">http://www.gabrielweinberg.com/blog/2009/03/duck-duck-go-architecture.html
+      </a>
+    </span>
+    </li>
+  </ol>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>See you there!
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0">
+  <span>Nuba Princigalli
+  </span>
+  </p>
+  <p class="c0">
+  <span>Rio de Janeiro Perl Mongers
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+  <p class="c0 c1">
+  <span>
+  </span>
+  </p>
+</div>
+
+            <div id="sponsors">
+</div>
+
+        </div>
+        
+        <!--div id="right_bar">
+            
+<h3>Enquete:</h3>
+<p>Qual foi sua primeira impressão sobre o <a href="http://rakudo.org">Rakudo Star</a>?</p>
+<form name="enquete" action="enquete.pl" method="get" enctype="application/x-www-form-urlencoded">
+<p>
+<input name="vota" value="1" type="radio">É a tecnologia mais excitante desde que inventaram o pregador de roupa<br>
+<input name="vota" value="2" type="radio">É mais viciante que o novo Starcraft<br>
+<input name="vota" value="3" type="radio">Avançado demais para a maioria dos seres humanos (...mas os golfinhos acharam moleza)<br>
+<input name="vota" value="4" type="radio">Minha lesma de estimação, é mais rápida<br>
+<input name="vota" value="5" type="radio">Rakudo Star? É parente do Ringo Star?<br>
+<input name="vota" value="6" type="radio">Droga! Não tem perldoc<br>
+<input name="vota" value="7" type="radio">Outra<br>
+<input value="Vote!" type="submit">
+</p>
+</form>
+
+<p>
+<a href="enquete.pl?exibe=004">Resultados</a>, <a href="enquete.pl?exibe=antigas">enquetes antigas</a></p>
+
+            <h3>Links:</h3>
+<p>
+    - <a target="_blank" href="http://perl.org/">Perl.org</a><br> - <a
+        target="_blank" href="http://www.perl.com/">Perl.com</a><br> - <a
+        target="_blank" href="http://www.perlmonks.org/">Perl Monks</a><br>
+    - <a target="_blank" href="http://www.perlfoundation.org/">Perl
+        Foundation</a><br> - <a target="_blank" href="http://planet.perl.org">Planet
+        Perl</a><br> - <a target="_blank" href="http://www.perlcast.com/">PerlCast</a><br>
+    - <a target="_blank" href="http://www.pm.org/">Perl Mongers</a><br> -
+    <a target="_blank" href="http://perl.org.br/">Sociedade Perl<br>&nbsp;&nbsp;do
+        Brasil</a><br>
+</p>
+
+            <h3>Regionais:</h3>
+<p>
+    Encontre a comunidade Perl mais próxima de você!<br> <br> - <a
+        target="_blank" href="http://cascavel.pm.org/">Cascavel</a><br> -
+    <a target="_blank" href="http://campinas.pm.org/">Campinas</a><br> -
+    <a target="_blank" href="http://fortaleza.pm.org/">Fortaleza</a><br>
+    - <a target="_blank" href="http://recife.pm.org/">Recife</a><br> - <a
+        target="_blank" href="http://salvador.pm.org/">Salvador</a><br> -
+    <a target="_blank" href="http://sao-paulo.pm.org/">São Paulo</a><br>
+    - <a target="_blank" href="http://vitoria.pm.org/">Vitória</a><br>
+</p>
+
+        </div-->
+        
+        <div id="footer">
+            <p>
+    Copyright &copy; 2012 Rio de Janeiro Perl Mongers.
+</p>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+  _uacct = "UA-2653158-1";
+  urchinTracker();
+</script>
+
+        </div>
+    </body>
+</html>
