@@ -31,6 +31,7 @@ header > h2 {
     float: right;
     padding: 20px;
     width: auto;
+    height: 20px;
     text-align: center;
     font-size: 1.1em;
 }

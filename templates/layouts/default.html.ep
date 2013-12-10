@@ -8,15 +8,16 @@
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script src="js/Subtitle.js"></script>
+	<script src="js/main.js"></script>
         <header>
             <h1>
                 Rio de Janeiro <br />
                 Perl Mongers
             </h1>
             
-            <h2>
-                CPAN é a linguagem. Perl é apenas a sintaxe.
-            </h2>
+            <h2 id="catation"></h2>
             
             <a href="http://rio.perl.org.br/">
                 <img
