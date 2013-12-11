@@ -30,9 +30,10 @@ header > h1 {
 header > h2 {
     float: right;
     padding: 20px;
-    width: auto;
     text-align: center;
     font-size: 1.1em;
+    width: 400px;
+    text-align: right;
 }
 
 #left_bar {
