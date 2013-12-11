@@ -1,25 +1,25 @@
 % layout 'default';
 
 
-<h3>Saudações!</h3>
+<h3>Sauda&ccedil;&otilde;es!</h3>
 <hr size="1">
 
 
 <p>
-    Bem vindo(a) ao site do grupo de usuários, desenvolvedores e entusiastas
+    Bem vindo(a) ao site do grupo de usu&aacute;rios, desenvolvedores e entusiastas
     de <a target="_blank" href="http://www.perl.org/">Perl</a> do Rio de
     Janeiro.
 </p>
 <p>Somos um grupo dedicado a educar, aprender, criticar, divulgar,
     discutir, fomentar, desenvolver, usar e abusar de Perl e tudo que diz
-    respeito a essa linguagem de programação revolucionária aqui na cidade
+    respeito a essa linguagem de programa&ccedil;&atilde;o revolucion&aacute;ria aqui na cidade
     maravilhosa.</p>
-<p>Se você já faz ou gostaria de fazer qualquer uma dessas coisas, você já
-    é um de nós!</p>
+<p>Se voc&ecirc; j&aacute; faz ou gostaria de fazer qualquer uma dessas coisas, voc&ecirc; j&aacute;
+    &eacute; um de n&oacute;s</p>
 
 <div class="destaque">
     <span>Novo em Perl?</span> Experimente nossa<br> <a
-        href="<%= url_for('/iniciantes') %>">seção para iniciantes</a>
+        href="<%= url_for('/iniciantes') %>">se&ccedil;&atilde;o para iniciantes</a>
 </div>
 
 <br>
@@ -27,9 +27,9 @@
 <h3>Datas Importantes</h3>
 <hr size="1">
 <p>
-    YAPC::Brasil::2012: <strong>em breve!</strong><br> Próximo encontro
-    social:<strong> 9 de Fevereiro de 2012 </strong><br> Próximo encontro
-    técnico:<strong> Em breve! </strong><br>
+    YAPC::Brasil::2012: <strong>em breve!</strong><br> Pr&oacute;ximo encontro
+    social:<strong> 9 de Fevereiro de 2012 </strong><br> Pr&oacute;ximo encontro
+    t&eacute;cnico:<strong> Em breve! </strong><br>
 
     <script type="text/javascript"
         src="http://www.google-analytics.com/urchin.js">
