@@ -62,7 +62,7 @@ ul.menu > li > a {
     font-weight: bold;
     text-decoration: none;
     margin-bottom: 5px;
-
+    display: block;
 }
 
 ul.menu > li:hover {
