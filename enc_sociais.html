@@ -20,12 +20,13 @@ setInterval("updateCountdown('countdown', Date.UTC(2013,01,10,19,0,0), new Date(
 -->
 
 <table align="center" valign="center" width="350px" height="50px" bgcolor="#ccccff"><tr><td align="center">
-<i>Pr&oacute;ximo encontro:</i> <strong> 10 de Janeiro de 2013 </strong><br/><i>(a partir das <b>19:00</b>)</i></td></tr></table>
+<i>Pr&oacute;ximo encontro:</i> <strong>{{ site.data.enc_social.date }}</strong><br/><i>(a partir das <b>{{ site.data.enc_social.hour }}</b>)</i></td></tr></table>
 <br/>
 <h3>Localiza&ccedil;&atilde;o:</h3>
 
 <!-- a definir -->
-<center><b>A definir.</b> <br/><i>(acompanhe a discuss&atilde;o na lista e vote em sua prefer&ecirc;ncia!)</i></center>
+<center><b>{{ site.data.enc_social.location }}</b><br/>
+<i>{{ site.data.enc_social.address }}</i></center>
 
 
 
