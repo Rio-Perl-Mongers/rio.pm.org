@@ -1,7 +1,7 @@
 - name: Home
   href: /			
-- name: Quack &amp; Hack
-  href: quack-and-hack.html	
+#- name: Quack &amp; Hack
+#  href: quack-and-hack.html	
 - name: FAQ
   href: FAQ.html		
 - name: Quem usa Perl?
