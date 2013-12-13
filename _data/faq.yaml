@@ -1,0 +1,60 @@
+---
+- question: O que é Perl?
+  answer: >
+    Que bom que perguntou! Perl é uma linguagem de programação estável e 
+    multiplataforma, utilizada em projetos de missão crítica nos setores públicos e 
+    privados ao redor do mundo. É também amplamente utilizada na criação de 
+    aplicativos Web de todos os tipos.
+
+- question: Err... Como se pronuncia "Perl"?
+  answer: >
+    Muita gente tem dificuldade de pronunciar o nome da linguagem corretamente, especialmente em português. 
+    É comum ouvimos "pêu", "pérli", "prôu", e até "piu". A pronúncia 
+    correta é como <i>pérola</i> em inglês (<i>Pearl</i>). Tá, não ajudou muito, 
+    né? <a href="../src/audio/perl.mp3">Ouça então aqui a pronúncia</a>!
+
+- question: O que é um Monge Perl?
+  answer: >
+    Chamamos carinhosamente de <i>Monge</i> todos os membros da comunidade Perl ao redor do mundo. Isso 
+    se deu provavelmente devido ao site dos <a href="http://www.perlmonks.org">PerlMonks</a>, uma comunidade 
+    internacional de desenvolvedores e entusiastas de Perl. Se vocé participa da comunidade (seja 
+    programando, indo aos encontros, assinando a lista de discussão, ou mesmo lendo esse site), 
+    então você também é um monge Perl!
+
+- question: "\"Perl\", \"perl\", ou \"PERL\"?"
+  answer: >
+    Você já deve ter reparado que grafias diferentes são utilizadas para falar de coisas 
+    diferentes dentro da comunidade. Costumamos usar <i>"Perl"</i> (com a primeira letra em maiúscula) 
+    quando falamos da linguagem, qualquer que seja a versão; "perl" (todo em minúsculas) 
+    é usado quando falamos da implementação (o compilador/interpretador), também 
+    em qualquer versão. PERL (todo em maiúsculas) não é utilizado, e escrever assim costuma ser considerado uma gafe entre programadores (mas não se preocupe: é só alimentá-los direito que eles não mordem ;-).
+
+- question: Onde baixar?
+  answer: >
+    Se você usa Linux, *BSD, ou algum outro sistema livre, você muito provavelmente já 
+    tem o perl instalado em seu sistema! Digite "perl -v" num terminal e veja se ele te responde a 
+    versão instalada! Senão, procure pelo perl no repositório de programas de sua 
+    distribuição/sistema (usuários de debian/ubuntu/derivados podem por exemplo digitar 
+    <i>apt-get install perl</i>).<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<i>Usa MacOS X?</i> Então você já tem o perl instalado!<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<i>Usa Windows?</i> <a href="http://www.activestate.com/store/activeperl/download/">Pegue o ActivePerl para 
+    o seu sistema!</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<i>Usa alguma outra coisa?</i> Bom, o Perl é uma das linguagens mais portáveis do mundo. 
+    <a href="http://www.http://www.perl.org/get.html">Procure pelo seu sistema aqui</a>!
+
+- question: Quanto custa?
+  answer: >
+    É grátis! Perl é licenciado tanto pela 
+    <a href="http://dev.perl.org/licenses/artistic.html">Licensa Artística</a> quanto pela 
+    <a href="http://dev.perl.org/licenses/gpl1.html">GPL Versão 1</a>. Isso significa que seus 
+    programas desenvolvidos em Perl são <b>seus</b>, e podem ser liberados ou não, em código 
+    aberto ou não, de graça ou não, conforme você desejar.
+
+- question: Perl é só para Web?
+  answer: >
+    De jeito nenhum!<br>Perl é uma linguagem multi-propósito cujo principal apelo é a manipulação de informação de maneira fácil e rápida. A Web e suas linguagens (HTML, XML, etc) são compostas tipicamente de informação, e por isso Perl e a Web têm um casamento tão forte. Mas Perl é ideal para qualquer aplicação que manipule informação, seja ela acessível via Web ou não. De fato, administradores de sistemas utilizam Perl há décadas para tarefas das mais simples às mais críticas, e existe um número cada dia maior de programas para usuários finais desenvolvidos parcial ou inteiramente em Perl.
+
+- question: Perl é lento?
+  answer: >
+    <i>Resposta rápida:</i> Não.<br>
+    <i>Resposta completa:</i>Poderíamos mostrar diversas comparações (<i>benchmarking</i>) mostrando o fantástico desempenho do Perl, mas a verdade é que não é possível medir uma linguagem de programação, e sim suas implementações - ou melhor, programas específicos compilados/interpretados por aquela implementação específica. Perl, no entanto, difere da maioria das linguagens interpretadas por possuir diversas técnicas de otimização. Para começar, antes de ser interpretado, o código Perl é compilado em uma árvore gramatical (<i>parse tree</i>) onde o compilador realiza uma série de otimizações de código, para só então interpretá-lo. Módulos utilizando <a href="http://perldoc.perl.org/perlxs.html" target="_blank">XS</a> e <a href="http://search.cpan.org/~ingy/Inline-0.44/Inline.pod" target="_blank">Inline</a> ajudam a gerar código C (ou mesmo Assembly) em partes do programa em que velocidade é realmente crítica, acessíveis (e de fato utilizadas!) de dentro de seu programa Perl. Para Web, módulos como <a href="http://search.cpan.org/~skimo/FCGI-0.67/FCGI.PL" target="_blank">FastCGI</a> e <a href="http://perl.apache.org/" target="_blank">mod_perl</a>, entre tantos outros, ajudam o Perl a se destacar nesse nicho. Mesmo aplicações gráficas com OpenGL podem ser criadas em Perl com resultados espantadoramente rápidos, sem diferenças estatísticas na perfomance geral em relação à mesma implementação em C, e até mesmo superando C em determinadas operações! (impressionado? Veja a história completa <a href="http://graphcomp.com/pogl.cgi?v=0111s3m3&amp;r=s1m1" target="_blank">aqui</a>)
