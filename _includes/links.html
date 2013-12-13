@@ -1,12 +1,6 @@
 <h3>Links:</h3>
 <p>
-    - <a target="_blank" href="http://perl.org/">Perl.org</a><br> - <a
-        target="_blank" href="http://www.perl.com/">Perl.com</a><br> - <a
-        target="_blank" href="http://www.perlmonks.org/">Perl Monks</a><br>
-    - <a target="_blank" href="http://www.perlfoundation.org/">Perl
-        Foundation</a><br> - <a target="_blank" href="http://planet.perl.org">Planet
-        Perl</a><br> - <a target="_blank" href="http://www.perlcast.com/">PerlCast</a><br>
-    - <a target="_blank" href="http://www.pm.org/">Perl Mongers</a><br> -
-    <a target="_blank" href="http://perl.org.br/">Sociedade Perl<br>&nbsp;&nbsp;do
-        Brasil</a><br>
+	{% for link in site.data.links %}
+	- <a target="_blank" href="{{link.href}}">{{link.name}}</a><br>
+	{% endfor %}
 </p>
