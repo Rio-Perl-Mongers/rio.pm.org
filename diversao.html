@@ -25,13 +25,9 @@ Veja <a href="videos.pl">aqui</a> alguns vídeos interessantes ou simplesmente e
 <img src="images/diversao/nothing.jpg" align="right">
 <h3>Perl em Quadrinhos!</h3>
 Veja algumas aparições do Perl em diferentes histórias em quadrinhos online:<br><br>
-<a href="http://www.bastichlabz.org/bastich/Strips/ba980225.gif" target="_blank">bastich - nada que Perl não possa fazer</a><br><br>
-<a href="http://www.qwantz.com/comics/guest6/guest_qwantz_aLp.jpg" target="_blank">quantz - dinossauros falantes</a><br><br>
-<a href="http://xkcd.com/224/" target="_blank">xkcd - a linguagem que construiu o universo</a><br><br>
-<a href="http://xkcd.com/208/" target="_blank">xkcd - salvando o dia mais uma vez</a><br><br>
-<a href="http://xkcd.com/519/" target="_blank">xkcd - tarefas da escola</a><br><br>
-<a href="http://0x2121.com/?strip=7" target="_blank">0x2121 - desculpe, não falo Perl (o pior é que é Perl válido mesmo)</a><br><br>
-<a href="http://ars.userfriendly.org/cartoons/?id=20010831" target="_blank">User Friendly - a mulher perfeita</a><br>
+{% for link in site.data.quadrinhos %}
+	<a href="{{ link.href }}" target="_blank">{{ link.name }}</a><br><br>
+{% endfor %}
 </div>
 <br><br>
 <p>Breve por aqui: poesia, golfe, códigos obscuros e engraçados!</p>
