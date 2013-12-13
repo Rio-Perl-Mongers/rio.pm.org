@@ -1,0 +1,17 @@
+---
+- name: Perl.org
+  href: http://perl.org/
+- name: Perl.com
+  href: http://www.perl.com/
+- name: Perl Monks
+  href: http://www.perlmonks.org/
+- name: Perl Foundation
+  href: http://www.perlfoundation.org/
+- name: Planet Perl
+  href: http://planet.perl.org
+- name: PerlCast
+  href: http://www.perlcast.com/
+- name: Perl Mongers
+  href: http://www.pm.org/
+- name: Sociedade Perl do Brasil
+  href: http://perl.org.br/
