@@ -1,0 +1,30 @@
+% layout 'default';
+
+
+<h3>Iniciantes</h3>
+<hr size="1">
+
+<p>Saudações, aprendiz! Aqui você encontra informações básicas sobre a
+    linguagem e por onde começar. Quando estiver mais confortável, sinta-se à
+    vontade para navegar pelas diferentes seções do site e aprofundar cada vez
+    mais seus conhecimentos!</p>
+<p>
+    Já sabe as respostas para as <a href="<%= url_for '/FAQ' %>">Perguntas Mais
+        Frequentes</a>?
+</p>
+<p>
+    <br>
+</p>
+<table align="center" bgcolor="#EEEEFF">
+    <tbody>
+        <tr>
+            <td><a href="http://mail.pm.org/mailman/listinfo/rio-pm">assine
+                    nossa lista</a>!</td>
+        </tr>
+    </tbody>
+</table>
+<p></p>
+
+<p>
+    <br>Estamos preparando coisas novas. Aguarde!
+</p>

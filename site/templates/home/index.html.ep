@@ -1,0 +1,42 @@
+% layout 'default';
+
+
+<h3>Saudações!</h3>
+<hr size="1">
+
+
+<p>
+    Bem vindo(a) ao site do grupo de usuários, desenvolvedores e entusiastas
+    de <a target="_blank" href="http://www.perl.org/">Perl</a> do Rio de
+    Janeiro.
+</p>
+<p>Somos um grupo dedicado a educar, aprender, criticar, divulgar,
+    discutir, fomentar, desenvolver, usar e abusar de Perl e tudo que diz
+    respeito a essa linguagem de programação revolucionária aqui na cidade
+    maravilhosa.</p>
+<p>Se você já faz ou gostaria de fazer qualquer uma dessas coisas, você já
+    é um de nós!</p>
+
+<div class="destaque">
+    <span>Novo em Perl?</span> Experimente nossa<br> <a
+        href="<%= url_for('/iniciantes') %>">seção para iniciantes</a>
+</div>
+
+<br>
+<br>
+<h3>Datas Importantes</h3>
+<hr size="1">
+<p>
+    YAPC::Brasil::2012: <strong>em breve!</strong><br> Próximo encontro
+    social:<strong> 9 de Fevereiro de 2012 </strong><br> Próximo encontro
+    técnico:<strong> Em breve! </strong><br>
+
+    <script type="text/javascript"
+        src="http://www.google-analytics.com/urchin.js">
+					
+				</script>
+    <script type="text/javascript">
+					_uacct = "UA-2653158-1";
+					urchinTracker();
+				</script>
+

@@ -1,0 +1,104 @@
+% layout 'default';
+
+
+
+<h3>Desenvolvimento</h3>
+<hr size="1">
+
+<!-- Trecho das buscas Firefox -->
+<script type="text/javascript">
+function addEngine(name, ext)
+{
+    if ((typeof window.sidebar == "object") && (typeof window.sidebar.addSearchEngine == "function")) {
+    window.sidebar.addSearchEngine(
+        "http://mycroft.mozdev.org/external.php/" + name + ".src",
+        "http://mycroft.mozdev.org/external.php/" + name + "."+ ext, "", "");
+    } else {
+        alert("You will need a browser which supports Sherlock to install this plugin.");
+    }
+}
+
+function addOpenSearch(name,ext,meth)
+{
+    if ((typeof window.external == "object") && ((typeof window.external.AddSearchProvider == "unknown") || (typeof window.external.AddSearchProvider == "function"))) {
+        if ((typeof window.external.AddSearchProvider == "unknown") && meth == "p") {
+            alert("This plugin uses POST which is not currently supported by Internet Explorer's implementation of OpenSearch.");
+        } else {
+            window.external.AddSearchProvider(
+            "http://mycroft.mozdev.org/externalos.php/" + name + ".xml");
+        }
+    } else {
+        alert("You will need a browser which supports OpenSearch to install this plugin.");
+    }
+}
+</script>
+
+<i>"Perl foi projetado para te deixar fazer tudo de muitas maneiras diferentes, então considere escolher a mais legível delas."</i>
+<br>— Larry Wall, perl man page.
+<br><br><br>
+<!--
+<img src="src/images/firefox.png" align="right"/><br/><br/>
+-->
+<div id="firefox" style="width:440px;padding:5px;border:#AA0000 2px solid;background-color:#F5D2C3;">
+<h3>Buscas do Firefox:</h3>
+<!--
+<p>Agora ficou mais f&aacute;cil encontrar o que voc&ecirc; quer com os plugins de busca no <a href="#" onClick="addEngine('cpan','gif','Computer','0');return false">CPAN</a> e <a href="#" onClick="addEngine('perldoc','png','Programming','4441');return false">PerlDoc</a>. Experimente!
+-->
+<p>Agora ficou mais fácil encontrar o que você quer com os plugins de busca no <a href="#" onclick="addOpenSearch('search.cpan','gif','Computer','0');return false">CPAN</a> e <a href="#" onclick="addEngine('perldoc','png','Programming','4441');return false">PerlDoc</a>. Experimente!
+
+</p>
+</div>
+<br>
+<div id="perlcast">
+<a href="http://www.perlcast.com/"><img src="/images/desenvolvimento/perlcast_small.gif" alt="PerlCast" align="left">PerlCast</a><br><br>
+<b>Última Transmissão:</b><i> Stevan Little on Moose </i><br>
+<b>Descrição:</b> <i>"Stevan Little discusses Moose, an object framework for Perl."</i><br><br>
+<!-- <a href="http://www.perlcast.com/audio/Perlcast_Interview_050.mp3">baixe/ou&ccedil;a aqui!</a><br/> -->
+<form name="antigos">
+<select name="opcoes" style="width:200px;background:#66CCFF;font:11px arial, helvetica, sans-serif;color:#183245"><option value="http://www.perlcast.com/audio/Perlcast_Interview_050.mp3">Stevan Little on Moose</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_049.mp3">Jeff Thalhammer on Perl::Critic</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_048.mp3">Michel Rodriguez on XML::Twig</option><option value="http://www.perlcast.com/audio/Perlcast_Presentation_006.mp3">Fear and Loathing in Perl</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_047.mp3">Jeff Horwitz on mod_parrot</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_046.mp3">Curtis 'Ovid' Poe on Logic Programming</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_045.mp3">Stas Bekman and Philippe M. Chiasson on mod_perl</option><option value="http://www.perlcast.com/audio/Perlcast_Presentation_005.mp3">Making My Own CPAN</option><option value="http://www.perlcast.com/audio/perlnews-2007-09-13.mp3">Perl News 2007-09-13</option><option value="http://www.perlcast.com/audio/perlnews-2007-08-26.mp3">Perl News 2007-08-26</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_044.mp3">Ross Turk of SourceForge.net</option><option value="http://www.perlcast.com/audio/perlnews-2007-07-20.mp3">Perl News 2007-07-20</option><option value="http://www.perlcast.com/audio/Perlcast_Presentation_004.mp3">"Learning Perl 6" by brian d foy</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_043.mp3">Matt Trout on DBIx::Class</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_042.mp3">Curtis "Ovid" Poe on Testing</option><option value="http://www.perlcast.com/audio/Perlcast_Presentation_003.mp3">Nordic Perl Workshop 2007: brian d foy's lightning talk on benchmarking Perl</option><option value="http://www.perlcast.com/audio/perlnews-2007-04-26.mp3">Perl News 2007-04-26</option><option value="http://www.perlcast.com/audio/Perlcast_Presentation_002.mp3">brian d foy on Benchmarking</option><option value="http://www.perlcast.com/audio/perlnews-2007-03-14.mp3">Perl News 2007-03-14</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_041.mp3">Intervew with Josh McAdams about YAPC::NA 2006 Conducted By Jason Gessner</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_040.mp3">Intervew with Uri Guttman</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_039.mp3">Intervew with Jeffrey Tallhammer, The Creator and Maintainer of Perl Critic</option><option value="http://www.perlcast.com/audio/perlnews-2007-01-20.mp3">Perl News 2007-01-20</option><option value="http://www.perlcast.com/audio/Perlcast_Interview_038.mp3">Intervew with Tim Bunce, creator and maintainer of the Perl DBI</option><option value="http://www.perlcast.com/audio/perlnews-2006-12-02.mp3">Perl News 2006-12-02</option></select>
+<input type="button" onclick="location=document.antigos.opcoes.options[document.antigos.opcoes.selectedIndex].value;" value="baixe/ouça aqui!">
+</form>
+<br>
+<!--
+<object width="300 height="42">
+<param name="src" value="http://www.perlcast.com/audio/Perlcast_Interview_050.mp3">
+<param name="autoplay" value="false">
+<param name="controller" value="true">
+<embed src="http://www.perlcast.com/audio/Perlcast_Interview_050.mp3" autostart="false" loop="false" width="300" height="42" controller="true"></embed>
+</object>
+-->
+
+</div>
+
+<br><br>
+<div id="webframeworks" style="width:240px;padding:5px;border:#666666 2px solid;background-color:#FEFEFE;"> <!-- #AAAADD, #DDDDFF -->
+<h3>Frameworks para Web:</h3>
+<hr size="1">
+Em Perl é muito fácil criar aplicativos para Web. Mas, para tornar isso ainda mais fácil, times experientes de desenvolvedores criam seus próprios frameworks que aliviam e automatizam tarefas comuns como estrutura, acesso a banco de dados, templating, gerenciamento de sessão, entre tantos outros, tornando a criação de aplicativos robustos algo simples, dinâmico e agradável. Veja aqui alguns dos mais conhecidos e utilizados:
+<hr size="1">
+<a href="http://www.usegantry.org/">Gantry</a>&nbsp;&nbsp;&nbsp;
+<a href="http://jifty.org/">Jifty</a>&nbsp;&nbsp;&nbsp;
+<a href="http://www.catalystframework.org/">Catalyst</a>&nbsp;&nbsp;&nbsp;
+<a href="http://maypole.perl.org/">Maypole</a>
+<br><hr size="1">
+<a href="http://www.cgi-app.org/">CGI::Application</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://search.cpan.org/perldoc?CGI::Prototype/">CGI::Prototype</a>
+<br><hr size="1">
+<a href="http://solstice.eplt.washington.edu/">Solstice</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://search.cpan.org/dist/CGI-Ex/">CGI::Ex</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://axkit.org/">Apache AxKit</a>
+<br><hr size="1">
+<a href="http://handelframework.com/">Handel</a>
+<p></p>
+</div>
+
+<div id="templates" style="position:relative;left:260px;top:-430px;width:190px;padding:5px;border:#00AA00 2px solid;background-color:#F0FFF0;">
+<h3>Templates:</h3>
+<hr size="1">
+Templates permitem que sua aplicação Web produza documentos dinâmicos com facilidade, velocidade e, principalmente, seguindo o mesmo modelo e formato visual. Através de sistemas de template é possível gerar e passar conteúdo para suas páginas sem que o designer precise se preocupar de antemão em qual será o conteúdo. Em muitos casos, ele não precisa nem saber programar! Escolha o seu:
+<hr size="1">
+<a href="http://www.template-toolkit.org/">Template Toolkit</a> &nbsp;&nbsp;&nbsp;
+<a href="http://www.masonhq.com/">Mason</a><hr size="1">
+<a href="http://html-template.sourceforge.net/">HTML::Template</a>&nbsp;&nbsp;&nbsp;
+<a href="http://perl.apache.org/embperl/">Embperl</a>
+</div>
